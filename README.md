@@ -72,3 +72,47 @@
     - budget
   
   
+### Technical stories
+- provide all available trips (user)
+  - backend
+    - create trip entity
+      - tripStartDate
+      - tripEndDate
+      - destination (class)
+        - country
+        - city
+      - price
+        - cost (BigDecimal)
+        - currency
+      - transport type (Enum)
+        - bus, train, plane, ferry
+      - security rules
+        - travel restrictions
+        - insurance
+      - payment type (Enum)
+        - Money, Card, Transfer, Apple Pay, Google Pay, Paypal, installment payment
+      - meal type (Enum)
+        - breakfast
+        - lunch
+        - dinners
+        - snacks
+        - drinks
+        - HB
+        - all inclusive
+      - hotel facilities
+          - attractions (list)
+          - apartment facilities (list)
+      - list of photos urls
+    - trip dto
+    - create TripController (REST)
+      - read all trips - paging by default (defaule size: 10)
+      - read one trip - by id
+        
+    - create TripService
+    - create TripRepository
+    - handle photos urls (TODO)
+
+
+  - frontend
+    - cards with trips
+    - some photos
