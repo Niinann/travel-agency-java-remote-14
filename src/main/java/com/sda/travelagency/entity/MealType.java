@@ -3,11 +3,11 @@ package com.sda.travelagency.entity;
 public enum MealType {
     BREAKFASTS("Breakfast"),
     LUNCH("Delicious lunch"),
-    DINNER(".."),
+    DINNER("Big choice of meats"),
     SNACKS("Variety of snacks"),
-    DRINKS(" FDFFDFD"),
-    HB("GGG"),
-    ALL_INCLUSIVE("HHHH");
+    DRINKS(" Drrinks!"),
+    HB("Breakf.pluss Dinner"),
+    ALL_INCLUSIVE("ALL!");
 
     private String mealDescription;
 
