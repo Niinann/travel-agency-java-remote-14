@@ -1,4 +1,4 @@
-package com.sda.travelagency.entity;
+package com.sda.travelagency.entity.enumeration;
 
 public enum MealType {
     BREAKFASTS("Breakfast"),
@@ -9,7 +9,7 @@ public enum MealType {
     HB("Breakf.pluss Dinner"),
     ALL_INCLUSIVE("ALL!");
 
-    private String mealDescription;
+    private final String mealDescription;
 
     MealType(String mealDescription) {
         this.mealDescription = mealDescription;
