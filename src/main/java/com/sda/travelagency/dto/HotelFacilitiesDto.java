@@ -6,8 +6,8 @@ import java.util.List;
 
 public record HotelFacilitiesDto(
 
-        List<AttractionDto> attractions;
+        List<AttractionDto> attractions,
 
-        List<String> apartmentFacilities;
+        List<String> apartmentFacilities
 ){
 }
