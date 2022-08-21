@@ -1,9 +1,7 @@
 package com.sda.travelagency.dto;
 
 import com.sda.travelagency.entity.Destination;
-import com.sda.travelagency.entity.HotelFacilities;
 import com.sda.travelagency.entity.Price;
-import com.sda.travelagency.entity.SecurityRules;
 import com.sda.travelagency.entity.enumeration.MealType;
 import com.sda.travelagency.entity.enumeration.PaymentType;
 import com.sda.travelagency.entity.enumeration.TransportType;
