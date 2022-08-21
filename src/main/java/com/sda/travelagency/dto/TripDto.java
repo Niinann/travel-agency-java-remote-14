@@ -16,13 +16,20 @@ import java.util.List;
 public record TripDto(
         LocalDate tripStartDate,
         LocalDate tripEndDate,
-        Destination destination, // TODO: use dto
+        Destination destination,
+
+        //inside dto field can have even different type
+        //because dto is only for data transfer
+        String cost,
+
+        String currency,
+
         Price tripPrice, // TODO: should we use dto???
         TransportType typeOfTransport,
-        SecurityRules securityRules, // TODO: use dto
+        SecurityRulesDto SecurityRules,
         PaymentType paymentType,
         MealType mealType,
-        HotelFacilities hotelFacilities, // TODO: use dto
+        HotelFacilitiesDto hotelFacilities, // TODO: use dto
         List<String> photos
 ) {
 }
